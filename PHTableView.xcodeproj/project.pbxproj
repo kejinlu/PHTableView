@@ -1,0 +1,348 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A360F194163591D900787510 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A360F193163591D900787510 /* UIKit.framework */; };
+		A360F196163591D900787510 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A360F195163591D900787510 /* Foundation.framework */; };
+		A360F198163591D900787510 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A360F197163591D900787510 /* CoreGraphics.framework */; };
+		A360F19E163591D900787510 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A360F19C163591D900787510 /* InfoPlist.strings */; };
+		A360F1A0163591D900787510 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A360F19F163591D900787510 /* main.m */; };
+		A360F1A4163591D900787510 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A360F1A3163591D900787510 /* AppDelegate.m */; };
+		A360F1A7163591D900787510 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A360F1A6163591D900787510 /* ViewController.m */; };
+		A360F1AA163591D900787510 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A360F1A8163591D900787510 /* ViewController.xib */; };
+		A360F1B31635922500787510 /* PHTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = A360F1B21635922500787510 /* PHTableView.m */; };
+		A360F1BD163592E800787510 /* luke.png in Resources */ = {isa = PBXBuildFile; fileRef = A360F1B5163592E800787510 /* luke.png */; };
+		A360F1BE163592E800787510 /* luke@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A360F1B6163592E800787510 /* luke@2x.png */; };
+		A360F1BF163592E800787510 /* invites-user-avatar-edge.png in Resources */ = {isa = PBXBuildFile; fileRef = A360F1B7163592E800787510 /* invites-user-avatar-edge.png */; };
+		A360F1C0163592E800787510 /* cover.png in Resources */ = {isa = PBXBuildFile; fileRef = A360F1B8163592E800787510 /* cover.png */; };
+		A360F1C1163592E800787510 /* cover@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A360F1B9163592E800787510 /* cover@2x.png */; };
+		A360F1C2163592E800787510 /* invites-user-avatar-edge@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A360F1BA163592E800787510 /* invites-user-avatar-edge@2x.png */; };
+		A360F1C3163592E800787510 /* feed-paper-texture.png in Resources */ = {isa = PBXBuildFile; fileRef = A360F1BB163592E800787510 /* feed-paper-texture.png */; };
+		A360F1C4163592E800787510 /* feed-paper-texture@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A360F1BC163592E800787510 /* feed-paper-texture@2x.png */; };
+		A360F1C71635935C00787510 /* PHAvatarView.m in Sources */ = {isa = PBXBuildFile; fileRef = A360F1C51635935C00787510 /* PHAvatarView.m */; };
+		A360F1CA1635946500787510 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A360F1C81635944400787510 /* QuartzCore.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A360F18F163591D900787510 /* PHTableView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PHTableView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A360F193163591D900787510 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A360F195163591D900787510 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A360F197163591D900787510 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A360F19B163591D900787510 /* PHTableView-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PHTableView-Info.plist"; sourceTree = "<group>"; };
+		A360F19D163591D900787510 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A360F19F163591D900787510 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A360F1A1163591D900787510 /* PHTableView-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PHTableView-Prefix.pch"; sourceTree = "<group>"; };
+		A360F1A2163591D900787510 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A360F1A3163591D900787510 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A360F1A5163591D900787510 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A360F1A6163591D900787510 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A360F1A9163591D900787510 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		A360F1B11635922500787510 /* PHTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PHTableView.h; sourceTree = "<group>"; };
+		A360F1B21635922500787510 /* PHTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PHTableView.m; sourceTree = "<group>"; };
+		A360F1B5163592E800787510 /* luke.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = luke.png; sourceTree = "<group>"; };
+		A360F1B6163592E800787510 /* luke@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "luke@2x.png"; sourceTree = "<group>"; };
+		A360F1B7163592E800787510 /* invites-user-avatar-edge.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "invites-user-avatar-edge.png"; sourceTree = "<group>"; };
+		A360F1B8163592E800787510 /* cover.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cover.png; sourceTree = "<group>"; };
+		A360F1B9163592E800787510 /* cover@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cover@2x.png"; sourceTree = "<group>"; };
+		A360F1BA163592E800787510 /* invites-user-avatar-edge@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "invites-user-avatar-edge@2x.png"; sourceTree = "<group>"; };
+		A360F1BB163592E800787510 /* feed-paper-texture.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "feed-paper-texture.png"; sourceTree = "<group>"; };
+		A360F1BC163592E800787510 /* feed-paper-texture@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "feed-paper-texture@2x.png"; sourceTree = "<group>"; };
+		A360F1C51635935C00787510 /* PHAvatarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PHAvatarView.m; sourceTree = "<group>"; };
+		A360F1C61635935C00787510 /* PHAvatarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PHAvatarView.h; sourceTree = "<group>"; };
+		A360F1C81635944400787510 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A360F18C163591D900787510 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A360F1CA1635946500787510 /* QuartzCore.framework in Frameworks */,
+				A360F194163591D900787510 /* UIKit.framework in Frameworks */,
+				A360F196163591D900787510 /* Foundation.framework in Frameworks */,
+				A360F198163591D900787510 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A360F184163591D900787510 = {
+			isa = PBXGroup;
+			children = (
+				A360F199163591D900787510 /* PHTableView */,
+				A360F192163591D900787510 /* Frameworks */,
+				A360F190163591D900787510 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A360F190163591D900787510 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A360F18F163591D900787510 /* PHTableView.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A360F192163591D900787510 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A360F1C81635944400787510 /* QuartzCore.framework */,
+				A360F193163591D900787510 /* UIKit.framework */,
+				A360F195163591D900787510 /* Foundation.framework */,
+				A360F197163591D900787510 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A360F199163591D900787510 /* PHTableView */ = {
+			isa = PBXGroup;
+			children = (
+				A360F1B01635922500787510 /* PHTableView */,
+				A360F1C51635935C00787510 /* PHAvatarView.m */,
+				A360F1C61635935C00787510 /* PHAvatarView.h */,
+				A360F1A2163591D900787510 /* AppDelegate.h */,
+				A360F1A3163591D900787510 /* AppDelegate.m */,
+				A360F1A5163591D900787510 /* ViewController.h */,
+				A360F1A6163591D900787510 /* ViewController.m */,
+				A360F1A8163591D900787510 /* ViewController.xib */,
+				A360F19A163591D900787510 /* Supporting Files */,
+			);
+			path = PHTableView;
+			sourceTree = "<group>";
+		};
+		A360F19A163591D900787510 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A360F1B4163592D300787510 /* images */,
+				A360F19B163591D900787510 /* PHTableView-Info.plist */,
+				A360F19C163591D900787510 /* InfoPlist.strings */,
+				A360F19F163591D900787510 /* main.m */,
+				A360F1A1163591D900787510 /* PHTableView-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A360F1B01635922500787510 /* PHTableView */ = {
+			isa = PBXGroup;
+			children = (
+				A360F1B11635922500787510 /* PHTableView.h */,
+				A360F1B21635922500787510 /* PHTableView.m */,
+			);
+			path = PHTableView;
+			sourceTree = "<group>";
+		};
+		A360F1B4163592D300787510 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				A360F1B5163592E800787510 /* luke.png */,
+				A360F1B6163592E800787510 /* luke@2x.png */,
+				A360F1B7163592E800787510 /* invites-user-avatar-edge.png */,
+				A360F1B8163592E800787510 /* cover.png */,
+				A360F1B9163592E800787510 /* cover@2x.png */,
+				A360F1BA163592E800787510 /* invites-user-avatar-edge@2x.png */,
+				A360F1BB163592E800787510 /* feed-paper-texture.png */,
+				A360F1BC163592E800787510 /* feed-paper-texture@2x.png */,
+			);
+			name = images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A360F18E163591D900787510 /* PHTableView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A360F1AD163591D900787510 /* Build configuration list for PBXNativeTarget "PHTableView" */;
+			buildPhases = (
+				A360F18B163591D900787510 /* Sources */,
+				A360F18C163591D900787510 /* Frameworks */,
+				A360F18D163591D900787510 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PHTableView;
+			productName = PHTableView;
+			productReference = A360F18F163591D900787510 /* PHTableView.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A360F186163591D900787510 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = "Lu Ke";
+			};
+			buildConfigurationList = A360F189163591D900787510 /* Build configuration list for PBXProject "PHTableView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A360F184163591D900787510;
+			productRefGroup = A360F190163591D900787510 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A360F18E163591D900787510 /* PHTableView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A360F18D163591D900787510 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A360F19E163591D900787510 /* InfoPlist.strings in Resources */,
+				A360F1AA163591D900787510 /* ViewController.xib in Resources */,
+				A360F1BD163592E800787510 /* luke.png in Resources */,
+				A360F1BE163592E800787510 /* luke@2x.png in Resources */,
+				A360F1BF163592E800787510 /* invites-user-avatar-edge.png in Resources */,
+				A360F1C0163592E800787510 /* cover.png in Resources */,
+				A360F1C1163592E800787510 /* cover@2x.png in Resources */,
+				A360F1C2163592E800787510 /* invites-user-avatar-edge@2x.png in Resources */,
+				A360F1C3163592E800787510 /* feed-paper-texture.png in Resources */,
+				A360F1C4163592E800787510 /* feed-paper-texture@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A360F18B163591D900787510 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A360F1A0163591D900787510 /* main.m in Sources */,
+				A360F1A4163591D900787510 /* AppDelegate.m in Sources */,
+				A360F1A7163591D900787510 /* ViewController.m in Sources */,
+				A360F1B31635922500787510 /* PHTableView.m in Sources */,
+				A360F1C71635935C00787510 /* PHAvatarView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A360F19C163591D900787510 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A360F19D163591D900787510 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A360F1A8163591D900787510 /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A360F1A9163591D900787510 /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A360F1AB163591D900787510 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A360F1AC163591D900787510 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A360F1AE163591D900787510 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PHTableView/PHTableView-Prefix.pch";
+				INFOPLIST_FILE = "PHTableView/PHTableView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A360F1AF163591D900787510 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PHTableView/PHTableView-Prefix.pch";
+				INFOPLIST_FILE = "PHTableView/PHTableView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A360F189163591D900787510 /* Build configuration list for PBXProject "PHTableView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A360F1AB163591D900787510 /* Debug */,
+				A360F1AC163591D900787510 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A360F1AD163591D900787510 /* Build configuration list for PBXNativeTarget "PHTableView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A360F1AE163591D900787510 /* Debug */,
+				A360F1AF163591D900787510 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A360F186163591D900787510 /* Project object */;
+}
